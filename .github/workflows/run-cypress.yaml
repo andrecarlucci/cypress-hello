@@ -1,0 +1,8 @@
+name: Run Cypress
+run-name: ${{ github.actor }} is testing out GitHub Actions
+on: [workflow_dispatch]
+jobs:
+  DoIt:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello world"
